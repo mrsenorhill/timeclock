@@ -1,0 +1,18 @@
+<h1>Who's Been Here Today?</h1>
+<%= link_to 'Clock In', new_post_path %>
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Grade</th>
+  </tr>
+ 
+  <% @posts.each do |post| %>
+    <tr>
+      <td><%= post.first_name %></td>
+      <td><%= post.last_name %></td>
+      <td><%= post.grade %></td>
+
+    </tr>
+  <% end %>
+</table>
