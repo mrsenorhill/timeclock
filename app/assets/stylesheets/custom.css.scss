@@ -107,13 +107,13 @@ footer ul li {
 /* CUSTOM */
 
 .title {
-	color: red;
-	margin-top: 90px;
+	color: orange;
+	margin-top: 10px;
 }
 
 .subtitle {
 	text-align: center;
-	padding-top: 0px;
+	margin-top: -30px;
 }
 
 
@@ -137,5 +137,17 @@ footer ul li {
 	color: red;
 }
 
+.show {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width:20%;
+}
 
 

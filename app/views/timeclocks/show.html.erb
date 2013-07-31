@@ -1,3 +1,4 @@
+<div class ="show"
 <p>
   <strong>First Name:</strong>
   <%= @post.first_name %>
@@ -13,4 +14,8 @@
   <%= @post.grade %>
 </p>
 
+<strong>Time</strong>
+<%= Time.now %>
+
 <%= link_to 'Back', posts_path %>
+</div>

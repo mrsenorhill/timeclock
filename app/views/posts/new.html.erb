@@ -1,3 +1,5 @@
+<h1>Clock In!</h1>
+<div class="form">
 <%= form_for :post, url: posts_path do |f| %>  <p>
     <%= f.label :first_name %><br>
     <%= f.text_field :first_name %>
@@ -14,6 +16,7 @@
   </p>
  
   <p>
-    <%= f.submit %>
+    <%= f.submit "Clock In"%>
   </p>
 <% end %>
+</div>
