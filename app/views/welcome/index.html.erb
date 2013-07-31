@@ -1,18 +1,3 @@
-<head>
-<style type="text/css">
-
-.container {text-align: center; width: 960px; margin: 0 auto; overflow: hidden;}
-
-.clock {width:800px; margin:0 auto; padding:30px; color:black; }
-
-#Date { font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; font-size:20px; text-align:center; }
-
-ul { width:800px; margin:0 auto; padding-top:25px; list-style:none; text-align:center; }
-ul li { display:inline; font-size:5em; text-align:center; font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; }
-
-#point { position:relative; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; padding-left:10px; padding-right:10px; }
-
-</style>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 <script type="text/javascript">
@@ -65,16 +50,15 @@ setInterval( function() {
 	<h2>What are you going to make today?</h2>
 <div class="btn-group">
   <button type="button" class="btn"><a href="./posts/new">CLOCK IN</button></a>
-   <button type="button" class="btn"><a href="./posts">WHO'S BEEN HERE TODAY?</button></a>
+   <button type="button" class="btn"><a href="#">CLOCK OUT</button></a>
 </div>
-<br>
-
+<h1><a href="./posts">Who's been here today?</a></h1>
 
 <body>
 
-<div class="container">
+<div class="clock_container">
 <div class="clock">
-<ul>
+<ul class="clock_list">
 	<li id="hours"> </li>
     <li id="point">:</li>
     <li id="min"> </li>

@@ -72,6 +72,22 @@ p {
   text-decoration: none;
 }
 
+header ul { 
+  float: left;
+  margin-right: 10px;
+  font-size: .2em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+header ul li { 
+color:red;
+}
+
 /* footer */
 
 footer {
@@ -96,6 +112,7 @@ footer small {
 footer ul {
   float: right;
   list-style: none;
+  font-size: .2em;
 }
 
 footer ul li {
@@ -108,7 +125,7 @@ footer ul li {
 
 .title {
 	color: orange;
-	margin-top: 10px;
+	margin-top: 0px;
 }
 
 .subtitle {
@@ -149,5 +166,42 @@ footer ul li {
 	display: block;
 	width:20%;
 }
+
+/* Clock */
+
+.container {
+text-align: center; 
+width: 960px; 
+margin: 0 auto; 
+overflow: hidden;
+}
+
+clock {
+width:800px; 
+margin:0 auto; 
+padding:30px; 
+color:black; 
+}
+
+#Date { 
+font-size:20px; 
+text-align:center; 
+}
+
+clock_list ul { 
+width:800px; 
+margin:0 auto; 
+padding-top:0px; 
+list-style:none; text-align:center; 
+color:red;
+}
+ul li { 
+display:inline; 
+font-size:5em; 
+text-align:center; 
+color:red;
+}
+
+#point { position:relative; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; padding-left:10px; padding-right:10px; }
 
 
